@@ -22,6 +22,8 @@ class Ground{
     show(img) {
         image(img, this.x, this.y, this.width, this.height);
         image(img, this.x + this.width, this.y, this.width, this.height);
+        //this is to check
+        console.log("hello")
     }
     
 }
